@@ -1,0 +1,72 @@
+/*see: https://scrimba.com/p/pV5eHk/c3E6PCb */
+
+.center,
+.center-column,
+.top,
+.right,
+.bottom,
+.left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.center-column {
+  flex-direction: column;
+}
+
+.top {
+  align-items: flex-start;
+}
+.right {
+  justify-content: flex-end;
+}
+.bottom {
+  align-items: flex-end;
+}
+.left {
+  justify-content: flex-start;
+}
+
+.mr5 {
+  margin-right: 5px;
+}
+.mr10 {
+  margin-right: 10px;
+}
+.mr20 {
+  margin-right: 20px;
+}
+.mr30 {
+  margin-right: 30px;
+}
+.mr50 {
+  margin-right: 50px;
+}
+
+.ml5 {
+  margin-left: 5px;
+}
+.ml10 {
+  margin-left: 10px;
+}
+.ml20 {
+  margin-left: 20px;
+}
+.ml30 {
+  margin-left: 30px;
+}
+.ml50 {
+  margin-left: 50px;
+}
+
+.single-spaced,
+.single-spaced * {
+  line-height: 1;
+}
+
+@media (max-width: 1024px) {
+  .desktop-only {
+    display: none;
+  }
+}

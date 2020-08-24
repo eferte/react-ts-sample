@@ -1,0 +1,9 @@
+.Provider {
+    position: absolute;
+    top: 0;
+    margin-top: 35px;
+    width: 25vw;
+    z-index: 100;
+    right: 5vw;
+    
+}
