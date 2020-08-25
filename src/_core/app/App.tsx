@@ -16,7 +16,7 @@ let history = useHistory();
    
     history.block(() => {
       // The location and action arguments indicate the location
-      // we're transitioning to and how we're getting there.
+      // we're transitioning to and how we're getting there..
 
       // A common use case is to prevent the user from leaving the
       // page if there's a form they haven't submitted yet.
@@ -39,7 +39,7 @@ let history = useHistory();
               path={route.path}
               exact={route.exact}
               render={(props: RouterProps) => {
-                return (
+                return ( 
                   <>
                     <main className={Style.main}>
                       <route.component key="right" {...props} routes={route.routes} />
